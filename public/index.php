@@ -1,52 +1,17 @@
 <?php
-    // 1. Написать функцию, которая по дню недели (1 - 7) выводит его название
-    // 2. Написать функцию, которая возвращает массив в обратном порядке
-    // 3. Написать функцию, которая обрезает пробелы в начале и конце строки,
-    // а так же заменяет два идущих подряд пробела на один
+    include_once __DIR__.'/../src/pages.php';
 
-echo 1111;
-$t = 1;
-if ($t < 111){
-    echo 123;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    if (isset($_GET['page']) && $_GET['page'] == 'form') {
+        include __DIR__ . "/../src/form.php";
+    } elseif (isset($_GET['page']) && $_GET['page'] == 'form_result') {
+        include __DIR__ . "/../src/form_result.php";
+    }
+    elseif (isset($_GET['page']) && $_GET['page'] == 'page') {
+        include __DIR__ . "/../src/page.php";
+    }
+    elseif (!isset($_GET['page'])){
+        include __DIR__ . "/../src/main_page.php";
+    }
 
 
 
