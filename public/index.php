@@ -1,33 +1,43 @@
 <?php
+    // 1. Написать функцию, которая по дню недели (1 - 7) выводит его название
+    // 2. Написать функцию, которая возвращает массив в обратном порядке
+    // 3. Написать функцию, которая обрезает пробелы в начале и конце строки,
+    // а так же заменяет два идущих подряд пробела на один
 
-    /**
-     * @var array $pages
-     */
+echo 1111;
+$t = 1;
+if ($t < 111){
+    echo 123;
+}
 
-    require __DIR__.'/../src/pages.php';
 
 
-?>
 
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <?php foreach ($pages as $page):?>
-        <div class="post">
-            <h2><?=$page['title']?></h2>
-            <p><?=$page['content']?></p>
-            <a href="#">Link</a>
-        </div>
-    <?php endforeach; ?>
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

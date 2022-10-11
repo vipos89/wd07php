@@ -12,6 +12,8 @@ services:
             - php-fpm
             - mysql
     php-fpm:
+        environment:
+            PHP_IDE_CONFIG: "serverName=wd07"
         build:
           dockerfile: docker/php/Dockerfile
           context: .
