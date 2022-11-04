@@ -1,0 +1,13 @@
+{
+    "name": "root/wd07",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "bramus/router": "^1.6",
+      "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
