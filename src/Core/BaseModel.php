@@ -12,13 +12,24 @@
 
         }
 
-        public static function findById($id): static{
+        public static function findById($id): static|null{
             $connection = DB::getConnection();
             $tableName = static::getTableName();
-            $sql = "select * from $tableName where id = $id";
-            $stmt = $connection->query($sql);
-            return $stmt->fetchObject(static::class);
+            $sql = "select * from $tableName where id = :id";
+            $stmt = $connection->prepare($sql);
+            $stmt->execute(['id' => $id]);
+            if ($stmt->rowCount()){
+                return $stmt->fetchObject(static::class);
+            }
+           return null;
+        }
 
+        public static function all(){
+            $connection = DB::getConnection();
+            $tableName = static::getTableName();
+            $sql = "select * from $tableName";
+            $stmt = $connection->query($sql);
+            return $stmt->fetchAll(PDO::FETCH_CLASS, static::class);
         }
 
         public static function getTableName(){

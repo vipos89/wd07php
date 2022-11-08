@@ -1,44 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94f00852-933a-473f-b87d-c1cacdaa0f08" name="Changes" comment="ololo">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wd07.loc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wd07.loc.iml" afterDir="false" />
+    <list default="true" id="94f00852-933a-473f-b87d-c1cacdaa0f08" name="Changes" comment="PDO">
+      <change afterPath="$PROJECT_DIR$/public/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/about-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/post-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/post-sample-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/about-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/contact-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/home-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/post-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/post-sample-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/menu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/add_post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/edit_post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/image_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/BaseModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web_routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/web_routes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="second_branch" />
+        <entry key="$PROJECT_DIR$" value="test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +38,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" xdebug_force_break_when_outside_project="false" />
+  <component name="PhpDebugGeneral" listening_started="true" xdebug_force_break_when_outside_project="false" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="aa39f6b0-cb1b-4cab-9e76-f71108214c2c" name="wd07" port="8080" use_path_mappings="true">
@@ -87,7 +79,7 @@
     "WebServerToolWindowFactoryState": "false",
     "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm": "Docker",
     "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm": "Docker",
-    "last_opened_file_path": "/Users/anduser/sites/wd07.loc",
+    "last_opened_file_path": "/Users/anduser/sites/wd07.loc/views",
     "nodejs_package_manager_path": "npm",
     "php.override.implement.member.chooser.php.doc": "NONE",
     "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
@@ -96,19 +88,29 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public/img2" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/catalog" />
       <recent name="$PROJECT_DIR$/src/Helpers" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wd07.loc/template/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="wd07" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="NOT_FILTER" server_name="wd07">
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -137,7 +139,8 @@
       <workItem from="1666281974557" duration="7415000" />
       <workItem from="1666714679237" duration="15748000" />
       <workItem from="1666886361225" duration="11615000" />
-      <workItem from="1667318782758" duration="22891000" />
+      <workItem from="1667318782758" duration="23162000" />
+      <workItem from="1667924048922" duration="9038000" />
     </task>
     <task id="LOCAL-00001" summary="git test branch">
       <created>1663869449290</created>
@@ -174,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666886864157</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="PDO">
+      <created>1667565159758</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667565159758</updated>
+    </task>
+    <task id="LOCAL-00007" summary="PDO">
+      <created>1667565293920</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667565293920</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +213,8 @@
     <MESSAGE value="pagination" />
     <MESSAGE value="add and edit post" />
     <MESSAGE value="ololo" />
-    <option name="LAST_COMMIT_MESSAGE" value="ololo" />
+    <MESSAGE value="PDO" />
+    <option name="LAST_COMMIT_MESSAGE" value="PDO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -213,7 +231,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/public/index.php</url>
-          <line>27</line>
+          <line>21</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>

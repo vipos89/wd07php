@@ -7,9 +7,6 @@
     class User extends BaseModel
     {
 
-        public function hello(){
-            return $this->id." ".$this->login;
-        }
 
 
     }
