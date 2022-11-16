@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94f00852-933a-473f-b87d-c1cacdaa0f08" name="Changes" comment="PDO">
-      <change afterPath="$PROJECT_DIR$/public/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/about-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/contact-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/home-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/post-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/post-sample-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Product.php" afterDir="false" />
+    <list default="true" id="94f00852-933a-473f-b87d-c1cacdaa0f08" name="Changes" comment="pdo + mvc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/SiteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Core/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/BaseModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web_routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/web_routes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +29,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" xdebug_force_break_when_outside_project="false" />
+  <component name="PhpDebugGeneral" xdebug_force_break_when_outside_project="false" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="aa39f6b0-cb1b-4cab-9e76-f71108214c2c" name="wd07" port="8080" use_path_mappings="true">
@@ -79,7 +70,7 @@
     "WebServerToolWindowFactoryState": "false",
     "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm": "Docker",
     "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm": "Docker",
-    "last_opened_file_path": "/Users/anduser/sites/wd07.loc/views",
+    "last_opened_file_path": "/Users/anduser/sites/wd07.loc/views/admin/products",
     "nodejs_package_manager_path": "npm",
     "php.override.implement.member.chooser.php.doc": "NONE",
     "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
@@ -88,6 +79,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/admin/products" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
@@ -140,7 +132,9 @@
       <workItem from="1666714679237" duration="15748000" />
       <workItem from="1666886361225" duration="11615000" />
       <workItem from="1667318782758" duration="23162000" />
-      <workItem from="1667924048922" duration="9038000" />
+      <workItem from="1667924048922" duration="9838000" />
+      <workItem from="1667981957604" duration="191000" />
+      <workItem from="1668531286931" duration="10483000" />
     </task>
     <task id="LOCAL-00001" summary="git test branch">
       <created>1663869449290</created>
@@ -191,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667565293920</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pdo + mvc">
+      <created>1667933938179</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667933938179</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +215,8 @@
     <MESSAGE value="add and edit post" />
     <MESSAGE value="ololo" />
     <MESSAGE value="PDO" />
-    <option name="LAST_COMMIT_MESSAGE" value="PDO" />
+    <MESSAGE value="pdo + mvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="pdo + mvc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -231,8 +233,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/public/index.php</url>
-          <line>21</line>
+          <line>42</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controllers/SiteController.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

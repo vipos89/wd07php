@@ -6,6 +6,7 @@
 
     class Product extends BaseModel
     {
+        public static $fillable = ['name', 'img', 'price'];
         public function getRealPrice(){
             return $this->price / 100;
         }
